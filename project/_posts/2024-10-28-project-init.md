@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "밀크티 프로젝트"
+title:  "프로젝트 일정 및 요구사항 분석"
 date:   2024-10-28 21:54:30 +0900
 categories: [project, refactoring]
 ---
