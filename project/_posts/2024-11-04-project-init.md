@@ -3,6 +3,7 @@ layout: post
 title:  "프로젝트 일정 및 요구사항 분석 (수정)"
 date:   2024-11-04 21:41:30 +0900
 categories: [project, refactoring]
+tags: [project, refactoring]
 ---
 
 # 예상 작업기간

@@ -1,6 +1,16 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: page
+title: Home
 ---
+
+Welcome to my development log. I use this space to turn things I learn into
+notes I can find again: debugging stories, project decisions, and small
+technical guides.
+
+## Posts
+
+<ul class="post-card-grid">
+{% for post in site.posts %}
+{% include post-card.html post=post %}
+{% endfor %}
+</ul>
