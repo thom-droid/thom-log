@@ -6,6 +6,7 @@ baseurl: "/thom-log"
 github_username: thom-droid
 lang: en
 timezone: Asia/Seoul
+future: true
 
 theme: minima
 plugins:
@@ -35,6 +36,13 @@ defaults:
       author: Thom
 
 exclude:
-  - compose.yaml
-  - README.md
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
   - vendor/
+  - compose.yaml
+  - docker-compose.yml
+  - README.md
